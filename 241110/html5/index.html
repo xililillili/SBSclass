@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ul, 
+        li {
+            list-style: none;
+        }
+
+        ul,
+        ol {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            background-color: #04c75c;
+            color: #fff;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        </style>
 </head>
 <body>
-    <h1>메인페이지</h1>
+   <ul>
+    <li><a href="#">메일</a>
+    <ul style="display: none">
+        <li><a href="">메일-1</a></li>
+        <li><a href="">메일-2</a></li>
+        <li><a href="">메일-3</a></li>
+        <li><a href="">메일-4</a></li>
+        <li><a href="">메일-5</a></li>
+    </ul>
+    </li>
+    <li><a href="#">카페</a></li>
+    <li><a href="#">스토어</a></li>
+    <li><a href="#">뉴스</a></li>
+    <li><a href="#">스토어</a></li>
+    <li><a href="#">증권</a></li>
+    <li><a href="#">부동산</a></li>
+    <li><a href="#">지도</a></li>
+    <li><a href="#">웹툰</a></li>
+    <li><a href="#">치지직</a></li>
+   </ul>
+    <h1 id="main">메인페이지</h1>
+    <ol>
+        <li><a href="#">뉴스스탠드</a></li>
+        <li><a href="#">언론사편집</a></li>
+        <li><a href="#">엔터</a></li>
+        <li><a href="#">경제</a></li>
+        <li><a href="#">스포츠</a></li>
+        <li><a href="#">쇼핑투데이</a></li>
+    </ol>
+    <span><a href="#chapterfin">😍마지막챕터로 이동</a>
+    </span>
     <h4>챕터1</h4>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum aut delectus, saepe eum magnam! Illo quas beatae totam iste ipsum, similique distinctio culpa soluta eos qui labore voluptates nam.
@@ -25,7 +75,7 @@
     Nulla, neque. Sed cum quae nihil ab impedit dolore earum maiores vero quaerat. Similique inventore repellendus porro voluptatibus totam nam quasi suscipit asperiores? Recusandae ullam beatae doloribus non in sunt.
     Mollitia corporis possimus fuga nesciunt distinctio quisquam laborum quo eaque, suscipit ullam consequuntur cum, voluptatum tempore quod ipsum animi odit. Cum adipisci incidunt necessitatibus, odit cumque sint optio perspiciatis autem.
     </p>
-    <h4>챕터3</h4>
+    <h4 id="chapterfin">챕터3</h4>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum aut delectus, saepe eum magnam! Illo quas beatae totam iste ipsum, similique distinctio culpa soluta eos qui labore voluptates nam.
     Minima quibusdam temporibus tempora enim molestias molestiae harum asperiores quidem tempore! Repellat modi error quasi accusantium hic doloremque illo quis harum. Earum rerum iusto sed quod aliquam voluptas optio sequi!
@@ -34,6 +84,6 @@
     Nulla, neque. Sed cum quae nihil ab impedit dolore earum maiores vero quaerat. Similique inventore repellendus porro voluptatibus totam nam quasi suscipit asperiores? Recusandae ullam beatae doloribus non in sunt.
     Mollitia corporis possimus fuga nesciunt distinctio quisquam laborum quo eaque, suscipit ullam consequuntur cum, voluptatum tempore quod ipsum animi odit. Cum adipisci incidunt necessitatibus, odit cumque sint optio perspiciatis autem.
     </p>
-    <span>-메인페이지로 이동-</span>
+    <span><a href="#main">-메인페이지로 이동-</a></span>
 </body>
 </html>
